@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Library</id>
+    <version>1.0.0.1</version>
+    <title>Library</title>
+    <authors>Harris.Zhang</authors>
+    <owners>Harris.Zhang</owners>
+    <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE_1</licenseUrl>
+    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE_1</projectUrl>
+    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE_1</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Description 1</description>
+    <releaseNotes>There are no release notes.</releaseNotes>
+    <copyright>Copyright @ranta 2016</copyright>
+    <tags>Tag001</tags>
+  </metadata>
+  <files>
+    <file src="lib\net20\*" target="lib\net20" />
+    <file src="lib\net40\*" target="lib\net40" />
+    <file src="lib\net45\*" target="lib\net45" />
+  </files>
+</package>
